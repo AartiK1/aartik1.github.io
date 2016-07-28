@@ -2,38 +2,32 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- CSS & JS FOR SITE WITH PYTHON/FLASK -->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<!-- Main CSS -->
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
-	<!-- Forms CSS -->
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/forms.css') }}">
-	<!-- Resources CSS -->
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/resources.css') }}">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- Forms css file -->
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<!-- Resources css file -->
+	<link rel="stylesheet" type="text/css" href="css/resources.css">
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
 
 	<!-- Latest compiled JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-	<!-- fotorama.css & fotorama.js. -->
-	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
-	<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="{{ url_for('static', filename='font-awesome/css/font-awesome.min.css') }}">
-<!-- END OF CSS & JS FOR SITE WITH PYTHON -->
+	<script src='js/main.js'></script>
 	
-	<script async="" src="//www.google-analytics.com/analytics.js"></script>
 	<!-- Font Package: Roboto -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,900italic,900,700italic,700,500italic,500' rel='stylesheet' type='text/css'>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+	<script async="" src="//www.google-analytics.com/analytics.js"></script>
+	
 	<title>SQL Resources - Learn to Code</title>
 	<!-- Favicon -->
-	<link rel="icon" href="{{ url_for('static', filename='favicon4.ico') }}" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">  
+	<link rel="icon" href="favicon4.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon"> 
 
 </head>
 
@@ -95,7 +89,6 @@
 						<p><textarea rows='1' class="name" type="text" name="fname" placeholder="&#xf007; Full Name" minlength="2" maxlength="80" size="12" onkeypress="return isAlphaKey(event)" required></textarea></p>
 						<p><textarea rows='1' class="name" type="email" name="email" placeholder="&#xf0e0; Email" maxlength="80" required></textarea></p>
 						<input class="sub-btn" type="submit" value="Subscribe">
-						<!-- <p id="news-hide"><textarea rows='1' class="name" type="email" name="email" maxlength="80" placeholder="&#xf0e0; name@example.com" required></textarea></p> -->
 					</form>
 				</div>
 			</nav>
@@ -123,22 +116,22 @@
 			</div>
 
 			<div class="col-sm-3">
-				<div class='home'><a href='https://www.codecademy.com'><img src="{{ url_for('static', filename = 'img/resources/website1.png') }}"><span id="overlay_text"><p class="res-name">Codecademy</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: Free!</p><p><em>Python, HTML/CSS, Java, JavaScript, SQL, Ruby</em></p></span></span></a></div>
+				<div class='home'><a href='https://www.codecademy.com'><img src='img/resources/website1.png'><span id="overlay_text"><p class="res-name">Codecademy</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: Free!</p><p><em>Python, HTML/CSS, Java, JavaScript, SQL, Ruby</em></p></span></span></a></div>
 
 			</div>
 
 			<div class="col-sm-3">
 
-				<div class='home'><a href='https://codehs.com/'><img src="{{ url_for('static', filename = 'img/resources/website4.png') }}"><span id="overlay_text"><p class="res-name">CodeHS</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: $25/month</p><p><em>Python, HTML/CSS, Java, JavaScript, SQL, C, C++</em></p></span></span></a></div>
+				<div class='home'><a href='https://codehs.com/'><img src='img/resources/website4.png'><span id="overlay_text"><p class="res-name">CodeHS</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: $25/month</p><p><em>Python, HTML/CSS, Java, JavaScript, SQL, C, C++</em></p></span></span></a></div>
 
-				<div class='home'><a href='https://www.khanacademy.org/computing/computer-programming'><img src="{{ url_for('static', filename = 'img/resources/website14.png') }}"><span id="overlay_text"><p class="res-name">Khan Academy</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: Free!</p><p><em>HTML/CSS, JavaScript</em></p></span></span></a></div>
+				<div class='home'><a href='https://www.khanacademy.org/computing/computer-programming'><img src='img/resources/website14.png'><span id="overlay_text"><p class="res-name">Khan Academy</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: Free!</p><p><em>HTML/CSS, JavaScript</em></p></span></span></a></div>
 
 			</div>
 
 			<div class="col-sm-3">
-				<div class='home'><a href='http://sql.learncodethehardway.org/book/'><img src="{{ url_for('static', filename = 'img/resources/website13.png') }}"><span id="overlay_text"><p class="res-name">Learn SQL The Hard Way</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: Free!</p><p><em>SQL</em></p></span></span></a></div>
+				<div class='home'><a href='http://sql.learncodethehardway.org/book/'><img src='img/resources/website13.png'><span id="overlay_text"><p class="res-name">Learn SQL The Hard Way</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: Free!</p><p><em>SQL</em></p></span></span></a></div>
 
-				<div class='home'><a href='http://tutorials.codebar.io/'><img src="{{ url_for('static', filename = 'img/resources/website15.png') }}"><span id="overlay_text"><p class="res-name">codebar</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: Free!</p><p><em>Python, HTML/CSS, JavaScript, Ruby</em></p></span></span></a></div>
+				<div class='home'><a href='http://tutorials.codebar.io/'><img src='img/resources/website15.png'><span id="overlay_text"><p class="res-name">codebar</p><p>Level: <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></p><p>Price: Free!</p><p><em>Python, HTML/CSS, JavaScript, Ruby</em></p></span></span></a></div>
 
 			</div>
 		</div>
@@ -197,7 +190,19 @@
 	<!-- BACK TO TOP BUTTON -->
 	<a href="#0" class="cd-top cd-top-other">Top</a>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	<script src="js/main.js"></script>
+
+	<!-- GOOGLE ANALYTICS -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-81497854-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- END OF GOOGLE ANALYTICS -->
 
 
 </body>
