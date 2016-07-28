@@ -424,6 +424,7 @@ li:hover > ul.drop-menu a:nth-child(6) li{
 .input-group{
   width: 40%;
   margin: 0 auto;
+  font-family: FontAwesome, cursive;
 }
 
 /*Search Bar on Home Page */
