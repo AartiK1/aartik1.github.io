@@ -883,6 +883,7 @@ a:hover {
   text-align:left;
   color: #3dbeb9;
   background-color: white;
+  font-family: 'FontAwesome' , 'roboto' , cursive;
 }
 #contact-form textarea:focus , #contact-form textarea:hover , #contact-form select:focus , #contact-form select:hover{
   border: 3px solid #3dbeb9;
@@ -974,6 +975,7 @@ a:hover {
   text-align:left;
   color: #fdacab;
   background-color: white;
+  font-family: 'FontAwesome' , 'roboto';
 }
 .newsletter-form.home textarea:focus , #newsletter-form textarea:hover{
   border: 3px solid #fdacab;
@@ -1029,6 +1031,7 @@ a:hover {
   text-align:left;
   color: #3dbeb9;
   background-color: white;
+  font-family: 'FontAwesome', 'roboto';
 }
 .newsletter-form textarea:focus , #newsletter-form textarea:hover{
   border: 3px solid #3dbeb9;
