@@ -871,7 +871,7 @@ a:hover {
 #contact-form form {
   margin: 0 auto;
   width: 60%;
-  font-family: 'roboto';
+  font-family: 'roboto' , 'FontAwesome';
   color: #fdacab;
 }
 #contact-form textarea , #contact-form select{
