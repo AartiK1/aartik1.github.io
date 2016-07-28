@@ -42,17 +42,19 @@
 
 .checker {
   display: inline-block;
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
 }
 .correct, .false {
   background-color: #109D59;
-  width: 50px;
-  height: 40px;
-  line-height: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: -90px;
   float: left;
   margin-left: 10px;
   font-size: 20px;
+  border-radius: 100%;
+  margin-bottom: 10px;
 }
 /*adds in correct answer colour */
 
